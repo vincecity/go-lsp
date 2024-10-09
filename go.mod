@@ -1,4 +1,4 @@
-module go.bug.st/lsp
+module github.com/vincecity/lsp
 
 go 1.22
 
