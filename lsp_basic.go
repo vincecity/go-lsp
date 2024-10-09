@@ -9,8 +9,8 @@ package lsp
 import (
 	"fmt"
 
+	"github.com/vincecity/lsp/jsonrpc"
 	"go.bug.st/json"
-	"go.bug.st/lsp/jsonrpc"
 )
 
 type WorkDoneProgressOptions struct {

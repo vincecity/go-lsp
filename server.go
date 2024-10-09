@@ -10,8 +10,8 @@ import (
 	"context"
 	"io"
 
+	"github.com/vincecity/lsp/jsonrpc"
 	"go.bug.st/json"
-	"go.bug.st/lsp/jsonrpc"
 )
 
 // ClientMessagesHandler interface has all the methods that an LSP Server should

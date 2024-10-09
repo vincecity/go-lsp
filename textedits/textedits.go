@@ -9,7 +9,7 @@ package textedits
 import (
 	"fmt"
 
-	"go.bug.st/lsp"
+	"github.com/vincecity/lsp"
 )
 
 // ApplyLSPTextDocumentContentChangeEvent applies the LSP change in the given text
@@ -86,10 +86,11 @@ func GetOffset(text string, pos lsp.Position) (int, error) {
 
 // GetLineOffset finds the offset/position of the beginning of a line within the text.
 // For example:
-//    text := "foo\nfoobar\nbaz"
-//    GetLineOffset(text, 0) == 0
-//    GetLineOffset(text, 1) == 4
-//    GetLineOffset(text, 2) == 11
+//
+//	text := "foo\nfoobar\nbaz"
+//	GetLineOffset(text, 0) == 0
+//	GetLineOffset(text, 1) == 4
+//	GetLineOffset(text, 2) == 11
 func GetLineOffset(text string, line int) (int, error) {
 	if line == 0 {
 		return 0, nil

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.bug.st/lsp"
+	"github.com/vincecity/lsp"
 )
 
 func TestApplyTextChange(t *testing.T) {

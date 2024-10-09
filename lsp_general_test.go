@@ -19,8 +19,8 @@ import (
 	"github.com/arduino/go-paths-helper"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/require"
+	"github.com/vincecity/lsp/jsonrpc"
 	"go.bug.st/json"
-	"go.bug.st/lsp/jsonrpc"
 )
 
 var sketchPath = paths.New("/home/user/sketch")
