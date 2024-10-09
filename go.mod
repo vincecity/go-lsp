@@ -1,4 +1,4 @@
-module github.com/vincecity/lsp
+module github.com/vincecity/go-lsp
 
 go 1.22
 

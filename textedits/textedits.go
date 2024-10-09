@@ -9,7 +9,7 @@ package textedits
 import (
 	"fmt"
 
-	"github.com/vincecity/lsp"
+	"github.com/vincecity/go-lsp"
 )
 
 // ApplyLSPTextDocumentContentChangeEvent applies the LSP change in the given text

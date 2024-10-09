@@ -10,7 +10,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/vincecity/lsp/jsonrpc"
+	"github.com/vincecity/go-lsp/jsonrpc"
 	"go.bug.st/json"
 )
 
